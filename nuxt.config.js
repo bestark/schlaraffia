@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'schlaraffia',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'de'
     },
     meta: [
       { charset: 'utf-8' },
@@ -38,10 +38,19 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxt/content'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     transpile: [/^element-ui/],
+    loaders: {
+      sass: {
+        implementation: require('sass'),
+      },
+      scss: {
+        implementation: require('sass'),
+      },
+    },
   }
 }

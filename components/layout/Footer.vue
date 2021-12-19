@@ -1,18 +1,19 @@
 <template>
-<header>
-    <div class="footer__inner">
+  <footer>
+    <el-footer>
+      <div class="footer__inner">
         FOOTER Inner
-    </div>
-</header>
+      </div>
+
+    </el-footer>
+  </footer>
 </template>
 <script>
-export default {
-
-}
+export default {}
 
 </script>
 <style lang="scss" scoped>
 .header__inner {
-    color: blue;
+  color: blue;
 }
 </style>

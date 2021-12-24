@@ -36,16 +36,22 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // '@nuxtjs/vuetify',
+    // 'nuxt-vite'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxt/content',
     'nuxt-buefy',
+    '@nuxtjs/style-resources'
   ],
 
   vuetify: {
     /* module options */
+  },
+
+  styleResources: {
+    scss: ['./assets/scss/**/*.scss']
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Lexend";
+  src: local("Lexend"),
+  url(~/assets/fonts/Lexend-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Noto";
+  src: local("Noto"),
+  url(~/assets/fonts/NotoSerif-Regular.ttf) format("truetype");
+}
+
+* {
+  font-family: "Lexend", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+h1, h2, h3 {
+  font-family: "Noto";
+  font-size: 26px;
+}
+
+h1 {
+  font-size: 60px;
+
+  @media (max-width: 1024px) {
+    font-size: 32px;
+  }
+}

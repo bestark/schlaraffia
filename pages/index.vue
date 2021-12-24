@@ -4,8 +4,8 @@
       <div class="columns">
         <div class="column is-three-fifths is-flex is-align-items-center">
           <div>
-            <h3>Schlaraffia® DUSSELDROPIA e.V.</h3>
-            <h1>
+            <h3>Schlaraffia® Dusseldorpia e.V.</h3>
+            <h1 class="is-size-2">
               Willkommen bei Schlaraffia Dusseldorpia
             </h1>
             <h2>Ein Verein wie sonst keiner</h2>
@@ -42,23 +42,15 @@ export default {
 .hero {
   color: #fff;
   background-color: #0B7CB8;
-  min-height: 80vh;
+  min-height: 60vh;
   position: relative;
   overflow: hidden;
   align-items: center;
   background-image: url("~/assets/images/red-bg.svg");
-  background-position: right;
+  background-position: center right;
   background-size: 100vh;
   background-repeat: no-repeat;
 
-  h1, h2, h3 {
-    font-family: "Noto";
-    font-size: 26px;
-  }
-
-  h1 {
-    font-size: 60px;
-  }
 }
 
 .hero-schlaraffe {

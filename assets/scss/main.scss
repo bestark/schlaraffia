@@ -1,15 +1,2 @@
-@font-face {
-  font-family: "Lexend";
-  src: local("Lexend"),
-  url(~/assets/fonts/Lexend-VariableFont_wght.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: "Noto";
-  src: local("Noto"),
-  url(~/assets/fonts/NotoSerif-Regular.ttf) format("truetype");
-}
-
-* {
-  font-family: "Lexend", -apple-system, BlinkMacSystemFont, sans-serif;
-}
+@import "variables";
+@import "fonts";

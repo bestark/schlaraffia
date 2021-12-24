@@ -39,9 +39,20 @@
 <script>
 </script>
 <style lang="scss" scoped>
+
+.header {
+  &:before {
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 6px;
+    background-color: $color-main-red;
+  }
+}
 .navbar {
-  background-color: #0B7CB8;
+  background-color: $color-main-blue;
   padding: 0 1rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
 ::v-deep .navbar-brand {
@@ -62,12 +73,6 @@
   }
 }
 
-.header--overline {
-  width: 100%;
-  height: 6px;
-  background-color: #DB2F23;
-}
-
 .navbar__logo {
   display: block;
   height: 60px;
@@ -84,7 +89,7 @@
   }
 
   &:hover {
-    color: #0B7CB8;
+    color: $color-main-blue;
   }
 
   img {

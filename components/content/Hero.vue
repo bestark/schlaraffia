@@ -12,15 +12,20 @@
           </div>
         </div>
         <div>
-          <img src="~/assets/images/hero-schlaraffe.png" alt="" class="hero-schlaraffe">
+          <img :src="image" alt="" class="hero__image">
         </div>
       </div>
     </div>
   </section>
 </template>
 <script>
-
+export default {
+  props: {
+    image: String,
+  }
+}
 </script>
+
 <style lang="scss" scoped>
 .hero {
   color: #fff;
@@ -29,21 +34,16 @@
   position: relative;
   overflow: hidden;
   align-items: center;
-  background-image: url("~/assets/images/red-bg.svg");
+  background-image: url("assets/images/red-bg.svg");
   background-position: center right;
   background-size: 100vh;
   background-repeat: no-repeat;
 }
 
-.hero-schlaraffe {
-  z-index: 12;
+.hero__image {
+  max-width: 90%;
+  padding: 2rem;
   position: relative;
 }
 
-.hero-wave {
-  position: absolute;
-  right: 0;
-  top: 0;;
-  z-index: 1;
-}
 </style>

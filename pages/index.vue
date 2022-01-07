@@ -1,6 +1,6 @@
 <template>
   <main>
-    <Content-Hero />
+    <Content-Hero :image="hero.imageTop" />
     <Content-Text-Image :image-left="intro.mainImage">
       <h3>Das sind die <span class="highlight">Schlaraffen</span> Dusselorpia</h3>
       <p>
@@ -20,7 +20,7 @@
         </div>
       </div>
     </Content-Text-Image>
-    <Content-Hero />
+    <Content-Hero :image="hero.imageMiddle" />
     <Content-Text-Image
       :enable-dots="false"
       :image-left="zitate.bildLinks"
@@ -52,6 +52,10 @@ export default {
   },
   data() {
     return {
+      hero: {
+        imageTop: require('assets/images/hero-schlaraffe.png'),
+        imageMiddle: require('assets/images/ritter2.png'),
+      },
       zitate: {
         bildLinks: require('assets/images/burgfrau.png'),
         bildRechts: require('assets/images/ritter.png')

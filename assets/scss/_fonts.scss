@@ -1,3 +1,5 @@
+@import "include-media";
+
 @font-face {
   font-family: "Lexend";
   src: local("Lexend"),
@@ -12,18 +14,33 @@
 
 * {
   font-family: "Lexend", -apple-system, BlinkMacSystemFont, sans-serif;
+  hyphens: auto;
+  word-break: break-word;
 }
 
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: "Noto";
   font-size: 26px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 18px;
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 40px;
 
-  @media (max-width: 1024px) {
+  @include media("<=tablet") {
     font-size: 32px;
   }
+
+  @include media("<=phone") {
+    font-size: 22px;
+  }
+}
+
+p {
+  line-height: 1.75;
 }

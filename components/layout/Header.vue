@@ -21,13 +21,13 @@
           Die Idee
         </b-navbar-item>
         <b-navbar-item href="#">
-          Neuigkeiten
+          Entstehung
         </b-navbar-item>
         <b-navbar-item href="#">
           Termine & Neuigkeiten
         </b-navbar-item>
         <b-navbar-item href="#">
-          Nachbarreyche
+          Unsere Nachbarn
         </b-navbar-item>
         <b-navbar-item href="#">
           Kontakt

@@ -1,6 +1,6 @@
 ---
 title: Der erste Beitrag auf der neuen Webseite
-date: 2021-10-30T22:27:19.694Z
+date: 2021-11-30T22:27:19.694Z
 category: Neuigkeiten
 description: Kurze Intro
 ---

@@ -12,7 +12,7 @@
               <NuxtLink to="datenschutz">Datenschutz</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="disclaimer">Disclaimer</NuxtLink>
+              <a href="https://www.allschlaraffia.de">Allschlarafia </a>
             </li>
           </ul>
         </div>

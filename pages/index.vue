@@ -21,6 +21,7 @@
       </div>
     </Content-Text-Image>
     <Content-Hero :image="hero.imageMiddle" />
+    <BlogSection :blog-entries="posts"/>
     <Content-Text-Image
       :enable-dots="false"
       :image-left="zitate.bildLinks"
@@ -72,5 +73,4 @@ export default {
 .zitat h3{
   font-weight: normal;
 }
-
 </style>

@@ -14,22 +14,22 @@
       </template>
 
       <template #end>
-        <b-navbar-item>
+        <b-navbar-item tag="router-link" :to="{ path: '/' }">
           Startseite
         </b-navbar-item>
-        <b-navbar-item href="#">
+        <b-navbar-item tag="router-link" :to="{ path: '/idee' }">
           Die Idee
         </b-navbar-item>
-        <b-navbar-item href="#">
+        <b-navbar-item tag="router-link" :to="{ path: '/geschichte' }">
           Entstehung
         </b-navbar-item>
-        <b-navbar-item href="#">
+        <b-navbar-item tag="router-link" :to="{ path: '/blog' }">
           Termine & Neuigkeiten
         </b-navbar-item>
-        <b-navbar-item href="#">
+        <b-navbar-item tag="router-link" :to="{ path: '/nachbarn' }">
           Unsere Nachbarn
         </b-navbar-item>
-        <b-navbar-item href="#">
+        <b-navbar-item tag="router-link" :to="{ path: '/kontakt' }">
           Kontakt
         </b-navbar-item>
       </template>

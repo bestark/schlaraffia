@@ -7,6 +7,9 @@
       <h1 class="hero__title">
         <slot/>
       </h1>
+      <div class="hero__subline">
+        <slot name="subline"/>
+      </div>
     </div>
   </div>
 </template>
@@ -30,6 +33,11 @@
     font-weight: 700;
     font-size: 42px;
     letter-spacing: 1px;
+  }
+
+  &__subline {
+    letter-spacing: 1px;
+    font-size: 15px;
   }
 }
 </style>

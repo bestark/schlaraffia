@@ -7,7 +7,7 @@
       <section class="section">
         <div class="container is-fullhd px-4">
           <Layout-LeftRightText>
-            <template v-slot:title>Verweise zu Nachbar-Reychen</template>
+            <template #title>Verweise zu Nachbar-Reychen</template>
             By creating a visual guide along the way, the designer or developer can get input from the other people
             involved in the website such as the customer, their manager, and other members of the team.By creating a
             visual guide along the way, the designer or developer can get input from the other people involved in the

@@ -76,17 +76,16 @@ export default {
 }
 .split {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   &__content {
-    flex: 1 1 auto;
-    max-width: 50%;
-
-    &:first-child {
-      padding-right: 1rem;
-    }
-
+    width: 50%;
     &:last-child {
-      padding-left: 1rem;
+      border-top: 1px solid $color-main-blue;
+      margin-top: 2rem;
+      padding-top: 2rem;
     }
   }
 }

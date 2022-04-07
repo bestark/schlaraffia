@@ -17,12 +17,14 @@
         <b-navbar-item tag="router-link" :to="{ path: '/' }">
           Startseite
         </b-navbar-item>
-        <b-navbar-item tag="router-link" :to="{ path: '/idee' }">
-          Die Idee
-        </b-navbar-item>
-        <b-navbar-item tag="router-link" :to="{ path: '/geschichte' }">
-          Entstehung
-        </b-navbar-item>
+        <b-navbar-dropdown label="Schlaraffia">
+          <b-navbar-item tag="router-link" :to="{ path: '/idee' }">
+            Die Idee
+          </b-navbar-item>
+          <b-navbar-item tag="router-link" :to="{ path: '/geschichte' }">
+            Entstehung
+          </b-navbar-item>
+        </b-navbar-dropdown>
         <b-navbar-item tag="router-link" :to="{ path: '/blog' }">
           Termine & Neuigkeiten
         </b-navbar-item>
@@ -80,6 +82,7 @@
   margin-right: auto;
 }
 
+.navbar-item .navbar-link,
 .navbar-item {
   color: #fff;
 

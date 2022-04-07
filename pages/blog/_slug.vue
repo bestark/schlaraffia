@@ -12,9 +12,6 @@
           <nuxt-content :document="post"/>
         </div>
       </section>
-      <section class="section">
-        Contact Sectino
-      </section>
     </main>
   </div>
 </template>

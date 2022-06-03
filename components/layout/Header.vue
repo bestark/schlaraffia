@@ -82,7 +82,25 @@
   margin-right: auto;
 }
 
-.navbar-item .navbar-link,
+.navbar .navbar-dropdown a.navbar-item{
+  color: $color-main-blue;
+}
+
+::v-deep .navbar-item {
+  a.navbar-link {
+    color: #fff;
+
+    &:hover {
+      color: $color-main-blue;
+    }
+  }
+
+  &.is-active {
+    a.navbar-link {
+      color: $color-main-blue;
+    }
+  }
+}
 .navbar-item {
   color: #fff;
 
@@ -91,6 +109,7 @@
 
   }
 
+  &:active,
   &:hover {
     color: $color-main-blue;
   }

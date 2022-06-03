@@ -38,6 +38,10 @@ export default {
   background-position: center right;
   background-size: 100vh;
   background-repeat: no-repeat;
+
+  @media (max-width: 768px) {
+    background-position: center bottom;
+  }
 }
 
 .hero__image {

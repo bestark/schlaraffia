@@ -65,5 +65,13 @@ export default {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 4rem;
   grid-row-gap: 4rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+
+    .teaser {
+      margin: 0 auto;
+    }
+  }
 }
 </style>

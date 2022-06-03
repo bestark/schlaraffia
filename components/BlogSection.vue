@@ -28,9 +28,20 @@ export default {
     flex-wrap: nowrap;
     justify-content: space-between;
 
+    @media (max-width: 768px) {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
     .teaser {
       width: 30%;
       flex-basis: 30%;
+
+      @media (max-width: 768px) {
+        width: 100%;
+        flex-basis: 100%;
+        margin-bottom: 2rem;
+      }
     }
   }
 

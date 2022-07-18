@@ -4,11 +4,7 @@
       <div class="columns">
         <div class="column is-three-fifths is-flex is-align-items-center">
           <div>
-            <h3>Schlaraffia® Dusseldorpia e.V.</h3>
-            <h1>
-              Willkommen bei Schlaraffia Dusseldorpia
-            </h1>
-            <h2>Ein Verein wie sonst keiner</h2>
+            <slot />
           </div>
         </div>
         <div>

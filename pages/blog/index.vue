@@ -7,17 +7,19 @@
       Termine & Neuigkeiten
     </Layout-HeaderPart>
     <main class="main">
-      <section class="section">
-        <div class="sippung">
-          <h2>Aktuelle Sippungsfolge</h2>
-          <h4>Unsere Veranstaltungen Winter 2022</h4>
-          <a class="button" href="/downloads/Sippungsfolge_uhunetz.pdf">Sippungsfolge 163 ansehen</a>
-        </div>
-      <div class="sippung">
-          <h2>Aktuelles Vademecum</h2>
-          <h4>Winterung 163/164</h4>
-          <a class="button" href="/downloads/VAD_A4.pdf">Vademecum ansehen</a>
-        </div>
+      <section class="section justify-content">
+        <download-box dokument="/downloads/Sippungsfolge_uhunetz.pdf" doc-title="Sippungsfolge 163/164 ansehen">
+          <template #title>Aktuelle Sippungsfolge</template>
+          <template #subtitle>Unsere Veranstaltungen Winter 2022/23</template>
+        </download-box>
+        <download-box dokument="/downloads/VAD_A4.pdf" doc-title="Vademecum ansehen">
+          <template #title>Aktuelles Vademecum</template>
+          <template #subtitle>Winterung 163/164</template>
+        </download-box>
+        <download-box dokument="/downloads/Krystallinen_2022.pdf" doc-title="Dokument ansehen">
+          <template #title>Sommer Veranstaltungen</template>
+          <template #subtitle>Krystallinen - Sommerung 163</template>
+        </download-box>
       </section>
       <section class="section blog">
         <BlogTeaser v-for="(post, index) of posts" :key="index" :post="post"/>
@@ -27,7 +29,10 @@
 </template>
 
 <script>
+import DownloadBox from "../../components/DownloadBox";
+
 export default {
+  components: {DownloadBox},
   head() {
     return {
       script: [
@@ -45,7 +50,6 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-
 .main {
   min-height: calc(100vh - 400px);
 }
@@ -53,22 +57,14 @@ export default {
 .section {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   column-gap: 1rem;
-}
-.sippung {
-  flex: 1 1;
-  background-color: lighten($color-main-blue, 50%);
-  max-width: 600px;
-  border-radius: 1rem;
-  padding: 2rem;
-  margin: 0 auto;
-  text-align: center;
 
-  .button {
-    margin-top: 2rem;
+  &.justify-content {
+    justify-content: center;
   }
 }
+
 
 .blog {
   margin: 0 auto;

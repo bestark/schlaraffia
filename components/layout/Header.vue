@@ -17,12 +17,18 @@
         <b-navbar-item tag="router-link" :to="{ path: '/' }">
           Startseite
         </b-navbar-item>
-        <b-navbar-dropdown label="Schlaraffia">
-          <b-navbar-item tag="router-link" :to="{ path: '/idee' }">
-            Die Idee
-          </b-navbar-item>
+        <b-navbar-item tag="router-link" :to="{ path: '/idee' }">
+          Die Idee
+        </b-navbar-item>
+        <b-navbar-dropdown label="Dusseldorpia">
           <b-navbar-item tag="router-link" :to="{ path: '/geschichte' }">
             Entstehung
+          </b-navbar-item>
+          <b-navbar-item tag="router-link" :to="{ path: '/reglemente' }">
+            Reglemente
+          </b-navbar-item>
+          <b-navbar-item tag="router-link" :to="{ path: '/postille' }">
+            Hauspostille
           </b-navbar-item>
         </b-navbar-dropdown>
         <b-navbar-item tag="router-link" :to="{ path: '/blog' }">

@@ -3,10 +3,12 @@
     <div class="news container is-fullhd px-4">
       <h2>Neuigkeiten aus dem Reyche der Dusseldorpen</h2>
       <div class="blog">
-        <BlogTeaser v-for="(post, index) of blogEntries" :key="index" :post="post"/>
+        <p>
+        </p>
+<!--        <BlogTeaser v-for="(post, index) of blogEntries" :key="index" :post="post"/>-->
       </div>
       <div class="readMore">
-        <NuxtLink class="btn button px-4" to="blog">Alle Beiträge</NuxtLink>
+        <NuxtLink class="btn button px-4" to="blog">Alle Neuigkeiten ansehen</NuxtLink>
       </div>
     </div>
   </section>
@@ -19,6 +21,10 @@ export default {
 <style lang="scss" scoped>
 .news {
   padding: 4rem 0;
+
+  h2 {
+    text-align: center;
+  }
 
   .blog {
     max-width: 1024px;

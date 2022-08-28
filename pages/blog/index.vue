@@ -21,9 +21,9 @@
           <template #subtitle>Krystallinen - Sommerung 163</template>
         </download-box>
       </section>
-      <section class="section blog">
-        <BlogTeaser v-for="(post, index) of posts" :key="index" :post="post"/>
-      </section>
+<!--      <section class="section blog">-->
+<!--        <BlogTeaser v-for="(post, index) of posts" :key="index" :post="post"/>-->
+<!--      </section>-->
     </main>
   </div>
 </template>

@@ -1,7 +1,9 @@
 ---
-title: Hello World
-date: 2022-02-28T22:27:19.694Z
+title: Unsere neue Webseite ist online
+date: 2022-08-28T11:15:37.075Z
 category: News
-description: Das ist der erste Beitrag
+description: Endlich ist es soweit. Die Webseite der Dusseldorpen ist nun endlich online!
 ---
 Schlaraffen hört!
+
+Es ist endlich soweit! Die Schlaraffische Webseite glänzt nun im neuen Licht.

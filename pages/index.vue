@@ -12,9 +12,15 @@
         Dusseldorpia: Das sind wir
       </h3>
       <p>
-        Source brings your together, in one central place. They’re easy to find and safely synced across all your
-        devices—so you can access them anytime, anywhere. No more wasting the day tracking down work.
+        Wir Schlaraffen sind Männer, die …
       </p>
+      <ul>
+        <li>Dichtung, Literatur, Musik und andere Künste mögen,</li>
+        <li>Humor und Wortspiel lieben,</li>
+        <li>Freundschaft und Verlässlichkeit schätzen,</li>
+        <li>zuhören können und wollen,</li>
+        <li>sich selbst in das schlaraffische Spiel einbringen wollen – mit Wort oder Musik.</li>
+      </ul>
       <div class="intro__benefits columns">
         <div class="column">
           <icon-box
@@ -39,8 +45,9 @@
     <Content-Hero :image="hero.imageMiddle">
       <h3>Welche Ziele und Zwecke hat Schlaraffia</h3>
       <p style="margin-top: 1rem">
-        <b>„Schlaraffia ist eine Gemeinschaft von Männern, die (…) die Pflege der Kunst und des Humors bezweckt und deren
-        Hauptgrundsatz die Hochhaltung der Freundschaft ist …“</b>
+        <b>„Schlaraffia ist eine Gemeinschaft von Männern, die (…) die Pflege der Kunst und des Humors bezweckt und
+          deren
+          Hauptgrundsatz die Hochhaltung der Freundschaft ist …“</b>
         <br><br>So steht es in unserer Satzung. Abgesehen davon spielen
         in unserem Männerbund die Ehefrauen und Partnerinnen eine wichtige Rolle. Mehrmals im Jahr feiern wir mit ihnen
         zusammen und bedanken uns bei ihnen auf diese Weise für ihr Verständnis, das sie unserem vergnüglichen Spiel
@@ -60,17 +67,10 @@
         Talent, sich einbringen, um die Zuhörer auf unterschiedlichste Art zu unterhalten. Ob mit einer musikalischen
         Darbietung, mit einem Gedicht oder mit heiteren bis besinnlichen Gedanken in Versen oder in Prosa. Erlaubt ist
         was gefällt – allerdings sind Politik, Religion oder Geschäftliches bei uns gar kein Thema!
-        <br><br>Das Erfolgsrezept der Schlaraffia – Kunst, Freundschaft, Humor – funktioniert schon seit mehr als 150 Jahren.
-        Unsere Abende spielen sich im Rahmen eines persiflierten höfischen Zeremoniells aus dem Mittelalter ab. Dieser
-        Rahmen – verbunden mit unseren Gewändern, altertümlichen Redewendungen und Umgangsformen – sorgt dafür, dass wir
-        mit Beginn des schlaraffischen Spiels im Nu den Alltag und seine Sorgen vergessen und uns ganz auf das Vergnügen
-        an Kunst und Humor konzentrieren können. Das begreift nur, wer es persönlich erlebt hat!
-        <br><br>Die Begeisterung für das schlaraffische Spiel lebt seit der Gründung der Schlaraffia im Jahre 1859 – und das
-        inzwischen weltweit. An mehr als 250 Orten in Europa, aber auch in Nord- und Südamerika, in Südafrika und selbst
-        in Australien komm en die Freunde von Musik und Literatur, von Frohsinn und feinem Geist zusammen. Übrigens ist
-        die Sprache der Schlaraffen seit ihrer Gründung Deutsch – überall auf der Welt.
-        Das Symbol der schlaraffischen Geselligkeit ist der UHU, der seit jeher für Weisheit und augenzwinkernde Würde
-        steht und dabei Ländergrenzen und Kontinente überwindet.</p>
+      </p>
+      <router-link class="button mt-6" :to="{ path: 'idee' }">
+        Mehr Erfahren
+      </router-link>
     </Content-Text-Image>
   </main>
 </template>

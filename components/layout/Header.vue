@@ -92,6 +92,13 @@
 
     &:hover {
       color: $color-main-blue;
+
+      &:after {
+        border-color: $color-main-blue;
+      }
+    }
+    &:after {
+      border-color: white;
     }
   }
 

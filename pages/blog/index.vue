@@ -13,6 +13,11 @@
           <h4>Unsere Veranstaltungen Winter 2022</h4>
           <a class="button" href="/downloads/Sippungsfolge_uhunetz.pdf">Sippungsfolge 163 ansehen</a>
         </div>
+      <div class="sippung">
+          <h2>Aktuelles Vademecum</h2>
+          <h4>Winterung 163/164</h4>
+          <a class="button" href="/downloads/VAD_A4.pdf">Vademecum ansehen</a>
+        </div>
       </section>
       <section class="section blog">
         <BlogTeaser v-for="(post, index) of posts" :key="index" :post="post"/>
@@ -45,7 +50,14 @@ export default {
   min-height: calc(100vh - 400px);
 }
 
+.section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  column-gap: 1rem;
+}
 .sippung {
+  flex: 1 1;
   background-color: lighten($color-main-blue, 50%);
   max-width: 600px;
   border-radius: 1rem;

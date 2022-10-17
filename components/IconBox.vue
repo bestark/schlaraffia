@@ -14,7 +14,6 @@ export default {
 .iconbox {
   text-align: center;
   margin: 0 auto;
-  max-width: 300px;
   border-radius: 16px;
   transition: all ease-in-out 320ms;
   padding: 3rem 1rem;

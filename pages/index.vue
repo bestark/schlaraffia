@@ -21,7 +21,7 @@
         <li>...zuhören können und wollen,</li>
         <li>...sich selbst in das schlaraffische Spiel einbringen wollen – mit Wort oder Musik.</li>
       </ul>
-      <div class="intro__benefits columns">
+      <div class="intro__benefits rows">
         <div class="column">
           <icon-box
             text="Ein Schlaraffe muss kein Profi sein – er hat aber Freude an Musik und Dichtkunst, an Theater und den bildenden Künsten. Auch als Amateur kann er an unseren abendlichen Treffen zur Unterhaltung der aufgeschlossenen Runde beitragen – oder einfach nur interessiert und begeistert zuhören."

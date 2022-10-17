@@ -37,9 +37,7 @@
 
           <Layout-LeftRightText columns="1">
             <h3>Wie wird man Schlaraffe?</h3>
-            Die Mitgliederzahl in Allschlaraffia insgesamt steigt konstant. Die Gründung neuer Reyche ist vorauszusehen.
-            Es gibt aber auch Reyche, in denen man sich sehr um geeignete Mitglieder bemüht, um das Spiel lebendig zu
-            halten. Das Reych Colonia Agrippina zählt momentan über einhundert Sassen.In Schlaraffia ist nichts geheim.
+            In Schlaraffia ist nichts geheim.
             Die Burgpforte steht für jeden interessierten Mann offen, eine Anmeldung ist jedoch erforderlich; sie
             erfolgt durch z.B. telefonische Kontaktaufnahme mit dem Kanzler des Reyches, oder bei persönlicher
             Bekanntheit mit einem Schlaraffen durch diesen. Der so avisierte Gast „reytet” dann als „Pilger” ein.

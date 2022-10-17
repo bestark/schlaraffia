@@ -10,14 +10,14 @@
       <section class="section">
         <div class="container px-4">
           <Layout-LeftRightText columns="1">
-            <template #title>Die Geschichte Dusseldorpias</template>
+            <template #title>Die Geschichte der Dusseldorpia</template>
             Gegründet 1883 [3. im Windmond a.U. 24], sind wir Dusseldorpen eines der älteren von über 270 "Reychen" im
             heute weltweiten Verband der "Schlaraffia ® ". Von Oktober bis April treffen wir uns jeweils freitags [Glock
             7 ½ d.A.], um gemäß unserem Motto "In arte voluptas" - In der Kunst liegt das Vergnügen - mit Vorträgen und
             Musik für ein paar Stunden dem Alltag - der "Profanei" - zu entfliehen.
             Das geschieht mit viel Humor, nicht zuletzt durch die spielerische Anlehnung an höfische Sitten und
             Gebräuche des Mittelalters.<br><br>
-            Unser Reych Schlaraffia Dusseldorpia, hat ca. 50 Mitglieder, der Dachverband der Schlaraffia ® weltweit über
+            Unser Reych Schlaraffia Dusseldorpia hat ca. 50 Mitglieder, der Dachverband der Schlaraffia ® weltweit über
             10.000. Was diese – Männern vorbehaltene – Gemeinschaft eint, ist das gemeinsame Vergnügen an einer
             spielerischen, geistvollen Atmosphäre. Deshalb sind an unseren Abenden Alltagsthemen wie Politik, Religion
             oder Geschäfte kein Thema.<br><br>

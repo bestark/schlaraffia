@@ -12,14 +12,14 @@
         Dusseldorpia: Das sind wir
       </h3>
       <p>
-        Wir Schlaraffen sind Männer, die …
+        Wir Schlaraffen sind Männer, die ...
       </p>
-      <ul>
-        <li>Dichtung, Literatur, Musik und andere Künste mögen,</li>
-        <li>Humor und Wortspiel lieben,</li>
-        <li>Freundschaft und Verlässlichkeit schätzen,</li>
-        <li>zuhören können und wollen,</li>
-        <li>sich selbst in das schlaraffische Spiel einbringen wollen – mit Wort oder Musik.</li>
+      <ul class="list-schlaraffia">
+        <li>...Dichtung, Literatur, Musik und andere Künste mögen,</li>
+        <li>...Humor und Wortspiel lieben,</li>
+        <li>...Freundschaft und Verlässlichkeit schätzen,</li>
+        <li>...zuhören können und wollen,</li>
+        <li>...sich selbst in das schlaraffische Spiel einbringen wollen – mit Wort oder Musik.</li>
       </ul>
       <div class="intro__benefits columns">
         <div class="column">
@@ -43,7 +43,7 @@
       </div>
     </Content-Text-Image>
     <Content-Hero :image="hero.imageMiddle">
-      <h3>Welche Ziele und Zwecke hat Schlaraffia</h3>
+      <h3>Welche Ziele und Zwecke hat Schlaraffia?</h3>
       <p style="margin-top: 1rem">
         <b>„Schlaraffia ist eine Gemeinschaft von Männern, die (…) die Pflege der Kunst und des Humors bezweckt und
           deren
@@ -69,7 +69,7 @@
         was gefällt – allerdings sind Politik, Religion oder Geschäftliches bei uns gar kein Thema!
       </p>
       <router-link class="button mt-6" :to="{ path: 'idee' }">
-        Mehr Erfahren
+        Mehr erfahren
       </router-link>
     </Content-Text-Image>
   </main>
@@ -113,5 +113,9 @@ export default {
 
 .zitat h3 {
   font-weight: normal;
+}
+
+.list-schlaraffia li{
+  list-style-type: none;
 }
 </style>

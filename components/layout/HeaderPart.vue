@@ -18,7 +18,7 @@
 </template>
 <style lang="scss" scoped>
 .hero {
-  min-height: 400px;
+  min-height: 200px;
   background-color: #0B7CB8;
   display: flex;
   justify-content: center;

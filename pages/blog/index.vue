@@ -17,7 +17,7 @@
           <template #subtitle>Winterung 163/164</template>
         </download-box>
         <download-box dokument="/downloads/Krystallinen_2022.pdf" doc-title="Dokument ansehen">
-          <template #title>Sommer Veranstaltungen</template>
+          <template #title>Sommer-Veranstaltungen</template>
           <template #subtitle>Krystallinen - Sommerung 163</template>
         </download-box>
       </section>

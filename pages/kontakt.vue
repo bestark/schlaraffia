@@ -13,14 +13,14 @@
             <h3>Man muss es erlebt haben, um es sich vorstellen zu können.<br></h3>
             <h4>Neugierig geworden?</h4><br><br>
 
-            Dann wir freuen uns schon, Sie bald einmal als Gast (Pilger) bei der Schlaraffia® Dusseldorpia begrüßen zu dürfen.<br>
+            Dann wir freuen uns schon Sie bald einmal als Gast (Pilger) bei der Schlaraffia® Dusseldorpia begrüßen zu dürfen.<br>
 
-            Unser Wappentier - der weise Uhu – garantiert:<br>
-            Einen Abend, den Sie nie vergessen werden !<br><br>
+            Unser Wappentier - der weise Uhu – garantiert<br>
+            einen Abend, den Sie nie vergessen werden!<br><br>
 
-            Anschrift des Kantzlers:	Werner Engels (Rt. Effendi)<br>
-            Aachener Str. 11, 40223 Düsseldorf<br>
-            Tel.: +49(0)211 311 02 75<br>
+            Anschrift des Kantzlers:	Antonius Klostermann (Rt. T-r-intur)<br>
+            Am Mühlenturm 14, 40489 Düsseldorf<br>
+            Tel.: +49(0)211 400 563 75<br>
             Fax: +49(0)211 311 24 53<br><br>
 
             E-Mail: <a href="mailto:Kantzlerambt@schlaraffia-dusseldorpia.de">Kantzlerambt@schlaraffia-dusseldorpia.de</a><br><br><br>

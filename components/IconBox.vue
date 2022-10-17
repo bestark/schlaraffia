@@ -24,6 +24,10 @@ export default {
     background: #ffffff;
   }
 
+  p {
+    hyphens: none;
+  }
+
   &__icon {
     width: 75px;
     margin-bottom: 0.5rem;
